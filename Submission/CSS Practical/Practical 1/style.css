@@ -1,0 +1,57 @@
+/* Header Styling */
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Image Styling */
+img {
+    float: left;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+/* Headings Styling */
+h1 {
+    color: crimson;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Table Header Styling */
+thead th {
+    color: crimson;
+    background-color: black;
+    font-size: 115%;
+}
+
+/* Table Body Styling */
+tbody td {
+    color: white;
+    background-color: black;
+    font-size: 115%;
+}
+
+/* Footer Styling */
+footer p {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}

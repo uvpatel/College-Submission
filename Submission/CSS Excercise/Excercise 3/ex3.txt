@@ -1,0 +1,9 @@
+Exercise 3: Styling a Monthly Sales Report Table
+Problem Statement:
+Create a "Monthly Sales Report" table that displays months, sales figures, and growth
+percentages. Style the table using CSS by:
+1. Setting the table layout with table-layout (fixed or auto).
+2. Managing borders with border-collapse or border-spacing.
+3. Positioning the caption with caption-side.
+4. Enhancing cell readability with proper padding and alignment.
+5. Applying zebra striping and hover effects for improved interactivity.

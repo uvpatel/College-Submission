@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monthly Sales Report</title>
+  <style>
+    /* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;       /* Handles borders */
+  table-layout: fixed;             /* Fixed layout */
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border:  2px solid black;
+}
+
+/* Caption Styling */
+caption {
+  caption-side: top;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Header Styling */
+th {
+  border:  2px solid black;
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Zebra Striping */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+  background-color: #dff9fb;
+  cursor: pointer;
+}
+
+/* Cell Padding and Alignment */
+td {
+  padding: 12px;
+  text-align: center;
+  color: #333;
+  border: 1px solid #ddd;
+  border:  2px solid black;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <table>
+    <caption>Monthly Sales Report - 2025</caption>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Sales ($)</th>
+        <th>Growth (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>5,000</td>
+        <td>3%</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>5,500</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>6,200</td>
+        <td>12%</td>
+      </tr>
+      <tr>
+        <td>April</td>
+        <td>7,000</td>
+        <td>13%</td>
+      </tr>
+      <tr>
+        <td>May</td>
+        <td>8,000</td>
+        <td>15%</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>

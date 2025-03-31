@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple FAQ Section</title>
+  <style>
+    
+.faq {
+  counter-reset: faq-counter;
+}
+
+.faq li {
+  counter-increment: faq-counter;
+  margin-bottom: 15px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Add Q1, Q2 using ::before */
+.faq li::before {
+  
+  font-weight: bold;
+  color: #3498db;
+}
+
+/* Hover effect on questions */
+.question:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+/* Answers styling */
+.answer {
+  margin-left: 20px;
+  color: #333;
+}
+
+  </style>
+</head>
+
+<body>
+  <h2>FAQ Section</h2>
+
+  <ol class="faq">
+    <li>
+      <p class="question">What is your name?</p>
+      <p class="answer">My name is Urvil Patel.</p>
+    </li>
+    <li>
+      <p class="question">What are your skills?</p>
+      <p class="answer">Python, C, and Web Development.</p>
+    </li>
+    <li>
+      <p class="question">How to contact you?</p>
+      <p class="answer">Email me at uvpatel7271@gmail.com.</p>
+    </li>
+  </ol>
+</body>
+
+</html>

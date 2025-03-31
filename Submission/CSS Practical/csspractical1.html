@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 36px;
+        }
+
+        .bio {
+            color: white;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .bio:hover {            /*hover effect for bio */
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        #email {
+            color: white;
+            background-color: purple;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+
+        #email:hover {
+            background-color: #8e44ad;
+            transform: scale(1.1); /* for straching button*/
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS to color the name -->
+    <h1><span style="color: #e74c3c;">Urvil Patel</span></h1>
+
+    <p class="bio">Hello! I am Urvil Patel, a Computer Engineering student with a passion for Python, Web Development,
+        and exploring new technologies. I enjoy learning and building projects that challenge my skills.</p>
+
+    <!-- Email as a Button -->
+    <a href="mailto:uvpatel7271@gmail.com" id="email">Email Me</a>
+
+</body>
+
+</html>
