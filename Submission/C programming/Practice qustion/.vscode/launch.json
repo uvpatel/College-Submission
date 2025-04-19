@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+
+            // 🔰 Executable file to debug
+            "program": "${workspaceFolder}/nestedloop.exe",
+
+            // 🔰 Command-line arguments (leave empty or add if needed)
+            "args": [],
+
+            // 🔰 Should the debugger stop at main()?
+            "stopAtEntry": false,
+
+            // 🔰 Set working directory to project folder
+            "cwd": "${workspaceFolder}",
+
+            // 🔰 Add any environment variables if needed
+            "environment": [],
+
+            // 🔰 Open an external console (good for C/C++ output)
+            "externalConsole": true,
+
+            // 🔰 Specify the debugger mode and path
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+
+            // 🔰 GDB Pretty Printing for better variable display
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
