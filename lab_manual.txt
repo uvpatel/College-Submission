@@ -1,0 +1,258 @@
+Birla Vishvakarma Mahavidyalaya
+(An Autonomous Institution)
+
+Computer Engineering Department
+
+123ES: Programming For Problem Solving
+(A. Y. 2024-25)
+Lab Manual
+Sr.
+No.
+1) Practical Set - 1
+
+Name of the Experiment
+
+1. Introduction of C IDE and Programming Environment.
+2. To write, compile, and execute a simple C program that prints "Hello, World!" to the
+console, demonstrating basic input/output operations.
+3. To understand the use and importance of comments in C programming by writing a
+program that includes both single-line and multi-line comments, demonstrating their
+role in code documentation and readability.
+4. Write a program to declare variables of type’s int, float, char, and double. Initialize
+them and print their values.
+5. Program illustrating use of arithmetic operators. The numbers X and Y are initialized
+in the program itself with X = 25 and Y = 4.
+6. Program illustrating use of declaration, assignment of value to variables. Also
+explains how to use symbolic constants. Program to calculate area and circumference
+of a circle.
+
+2)
+
+Practical Set – 2
+1. Write a program to perform type casting from float to int and vice versa. Observe the
+output and explain the difference.
+2. Write a program that read two nos. from keyboard and gives their addition, subtraction,
+multiplication, division and modulo.
+3. Write a program to convert Fahrenheit temperature to centigrade. The formula is c =
+5*(fahr-32)/9.
+4. Write a program to imagine a ticket counter at a movie theatre where tickets are issued
+to customers. The ticket number starts at 1 and increments by 1 for each customer.
+Similarly, if a customer returns a ticket, the ticket number decreases by 1.
+5. Write a program to find maximum and minimum of two numbers using ternary “?”
+operator.
+6. Write a program to multiply and divide the given number by 2 using bit-wise operators
+<< and >>.
+
+3)
+
+Practical Set – 3
+1. Demonstrate Operator Precedence in Polynomial Evaluation (eq: 3x^3 + 2x^2 - 5x +
+1).
+2. Illustrate the effects of operator precedence and associativity in C by evaluating several
+expressions involving arithmetic, relational, and logical operators and displaying the
+results. It demonstrates:
+A. Default Precedence (Multiplication before Addition): The expression x + y * z
+
+3.
+4.
+5.
+6.
+
+4)
+
+B. Parentheses for Control: The expression (a + b) * c
+C. Default Precedence (Modulo before Addition): The expression d + e % f
+D. Associativity (Left-to-Right): The expression g * h / i
+E. Relational and Logical Operators: The expression j == k || l > k
+Demonstrate the usage of sizeof with various built-in C data types: int, char, float, bool,
+double, long, and short.
+Write a C program demonstrating the use of library functions (math.h  sqrt(), pow(),
+ceil(), floor(), fabs()).
+Write a program to swap two number using third variable.
+Write a program to demonstrate getch(), putch() and getchar(), putchar().
+
+Practical Set – 4
+1. A parking lot system needs to check whether a car's license plate number is even or odd
+to determine which day it is allowed to enter (even-numbered cars enter on even days,
+odd-numbered cars on odd days).
+2. A university wants to implement an automated grading system based on a student’s
+marks.
+Grading Criteria
+The university assigns grades based on the following marks range:
+
+3. An Automated Teller Machine (ATM) is a self-service banking device that allows
+users to perform financial transactions such as withdrawals, balance inquiries, and
+deposits. To ensure security and prevent unauthorized access, an ATM follows a twostep verification process:
+a. PIN Authentication – The ATM checks if the user has entered the correct
+Personal Identification Number (PIN). If the PIN is incorrect, access is denied.
+b. Balance Verification – If the PIN is valid, the ATM checks whether the user
+has enough balance to withdraw the requested amount. If the balance is
+insufficient, the transaction is declined.
+This logic is implemented using nested if-else statements in programming, where one
+condition (PIN validation) must be satisfied before checking another condition
+(sufficient balance).
+4. A restaurant has a menu where customers can choose an item by entering its
+corresponding number. The program displays the item name and price based on the
+user's selection.
+
+5)
+
+Practical Set – 5
+
+1. Write a program to accept a number from user and print factorial of it by using while
+loop.
+2. Write a program to take input as a number and reverse it by using while loop.
+3. Write a program accepts a number from user and check whether it is Armstrong or not
+by using while loop. e. g. 153 is Armstrong number. The summation of cubes of all the
+digits should be exactly equal to the number 153 = (1*1*1) + (5*5*5) + (3*3*3) =
+1+125+27 = 153
+4. Write a program to accept an integer number and print whether it is palindrome or not
+by using while loop.
+
+6)
+
+Practical Set – 6
+1. Write a program to accept a number from user and print its cube. Ask user for
+continuity, if user says yes repeat the process. (Use do while loop)
+2. The Restaurant Billing System is a computerized program designed to streamline the
+process of taking customer orders and generating accurate bills. It displays a menu of
+food items, allowing customers to select multiple items and specify their quantities. The
+program continuously accepts orders until the customer chooses to exit. Upon exit, it
+calculates the total bill and provides a detailed summary of the ordered items, including
+their quantities and prices.
+3. Write a program to take start and end numbers from the user and print all even
+numbers in that range.
+4. The Goto Statement - Password Authentication System is a program that simulates
+a secure login mechanism where a user is required to enter a correct password to gain
+access. The system allows up to three attempts, after which it locks the user out if they
+fail to enter the correct password.
+The program utilizes the goto statement to redirect execution back to the password
+input section if an incorrect password is entered.
+5. Write a program to print following pattern.
+*
+*****
+1
+*
+**
+****
+12
+**
+***
+***
+123
+***
+****
+**
+1234
+**
+*****
+*
+12345
+*
+(a)
+(b)
+(c)
+(d)
+
+7)
+
+Practical Set – 7
+1. A teacher wants to store the marks of 20 students in a test and find the highest, lowest,
+and average marks.
+2. Write a C program to implement a waiting list of customers at a restaurant where:
+i. The user inputs the total number of customers in the queue.
+ii. The system stores customer IDs in an array.
+iii. The user enters the position of a customer who cancelled their reservation.
+iv. The program removes the customer from the list and shifts the remaining
+customers forward.
+v. Finally, the program displays the updated waiting list.
+
+3. Imagine a library where books are stored in a random order on a shelf. The librarian
+wants to arrange the books in ascending order based on their unique ID numbers to
+make them easier to find.
+4. A college wants to track the attendance of 3 students for 5 days using a matrix (2D
+Array).
+Concept: 2D Array to store attendance records (1 for present, 0 for absent).
+Write a program to store attendance for N students over M days and find the total days
+attended by each student.
+5. A company has two sales departments, and each department maintains a monthly sales
+record in the form of a matrix. The manager wants to combine the sales data from both
+departments to get the total sales for each month in each region.
+Write a C program to read sales data from two matrices (each representing a
+department's sales), add them, and display the total sales.
+6. Write a program that asks the user to enter a username and compares it with a stored
+username in a case-insensitive manner.
+
+8.
+
+Practical Set – 8
+1. Write a C program to find the maximum of three given numbers using a userdefined function.
+The function should accept three integer arguments and return the largest number
+among them.
+2. Electricity Bill Generator
+Write a function that accepts the number of units consumed and returns the total bill
+amount based on slabs.
+Units Range
+Rate per Unit
+0 – 100 units
+₹1.50
+101 – 200 units ₹2.00
+201 – 300 units ₹3.00
+Above 300 units ₹5.00
+3. Write a C program that uses a recursive function to calculate the factorial of a given
+non-negative integer.
+4. Write a C program that uses a recursive function to generate the Fibonacci series up
+to n terms (entered by the user).
+
+9.
+
+Practical Set – 9
+1. Write a program to declare structure book having data members as book_name,
+book_pages, book_price. Accept this data and display it.
+2. Create a structure Product with fields: product ID, product name, quantity, and price.
+Write a program to input and display data for N products and calculate the total stock
+value (quantity × price) for each.
+3. Write a program using a nested structure where Student contains fields like name, roll
+number, and a nested structure Address that contains city and pincode. Accept and
+display details for 3 students.
+4. Define a structure Student with fields: name, roll number, and marks. Write a function
+to accept details of 5 students. Use another function to find and display the student with
+the highest marks.
+5. Define a struct Data and a union Data with the following members:
+i) An integer i
+
+ii) A float f
+iii) A character array str[20]
+1. Assign values to all members in both structure and union.
+2. Print the values and observe what gets retained or lost.
+3. Display the size of structure and union using sizeof.
+
+10. Practical Set – 10
+1. Write a program that declares an integer variable, assigns a value to it, and uses a pointer
+to display both the value and the address of the variable.
+2. Write a program to find product of two numbers using pointer.
+3. Write a program to read n different integer numbers from keyboard and calculate the
+sum using pointer.
+4. Write a program to do swapping of two elements using function with two pointers as
+arguments.
+5. Write a program to find minimum of two numbers using pointer and function.
+
+11. Practical Set – 11
+1. Write a C program to find sum of n elements entered by user. To perform this program,
+allocate memory dynamically using malloc() function.
+2. Write a C program to find sum of n elements entered by user. To perform this program,
+allocate memory dynamically using calloc() function.
+3. Write a C program that performs the following tasks:
+I.
+Creates (or opens) a file named "student.txt".
+II.
+Accepts a student's name and marks from the user.
+III.
+Writes the entered details to the file.
+IV.
+Closes the file after writing.
+V. Reopens the file in reading mode.
+VI.
+Reads and displays the contents stored in the file.
+
+
