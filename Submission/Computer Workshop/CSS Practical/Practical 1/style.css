@@ -1,0 +1,76 @@
+/* Header Styling */
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Image Styling */
+img {
+    float: left;
+    border: 2px solid black;
+    margin: -5px;
+}
+
+/* Headings Styling */
+h1 {
+    color: crimson;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+table{
+    border: 2px solid black;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table th {
+    border: 2px solid white;
+}
+thead th {
+    color: rgb(246, 246, 246);
+    background-color: black;
+    font-size: 115%;
+}
+
+/* Table Body Styling */
+tbody td {
+    color: black;
+    background-color: white;
+    font-size: 115%;
+}
+th{
+
+    border: 4px solid black;
+}
+th:hover {
+    background-color: rgb(197, 55, 55);
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+/* Footer Styling */
+footer p {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}

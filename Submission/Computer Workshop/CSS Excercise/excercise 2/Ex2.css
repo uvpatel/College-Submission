@@ -1,0 +1,68 @@
+/* CSS code for refrence */
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1517511620798-cec17d428bc0?auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-attachment: fixed;
+  }
+  
+  /* Navigation Styling */
+  nav h1 {
+    font-size: 32px;
+    color: #928965;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: #001429;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ff6347;
+  }
+  
+  /* Unique ID Styling */
+  #about-heading {
+    color: #00ff99;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* About Me Paragraph Styling */
+  .about-me {
+    font-style: italic;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  /* Custom List Styling */
+  .skills {
+    list-style-type: square;
+    padding-left: 40px;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* Optional Hover Effects */
+  .skills li:hover {
+    color: #ffd700;
+    cursor: pointer;
+  }

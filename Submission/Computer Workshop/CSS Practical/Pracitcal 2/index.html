@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urvil Patel | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1a202c;
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #1a202c, #2d3748);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .nav-link:hover, .nav-link.active {
+      color: #4fd1c5;
+      border-bottom: 2px solid #4fd1c5;
+    }
+    .hero-section {
+      background: url('https://source.unsplash.com/random/1920x1080/?tech') no-repeat center/cover;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .card {
+      background: #2d3748;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    footer {
+      background: #1a202c;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold text-teal-400">Urvil Patel</div>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="nav-link active text-lg font-medium text-gray-300 py-2">Home</a></li>
+        <li><a href="about.html" class="nav-link text-lg font-medium text-gray-300 py-2">About</a></li>
+        <li><a href="skills.html" class="nav-link text-lg font-medium text-gray-300 py-2">Skills</a></li>
+        <li><a href="projects.html" class="nav-link text-lg font-medium text-gray-300 py-2">Projects</a></li>
+        <li><a href="contact.html" class="nav-link text-lg font-medium text-gray-300 py-2">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section text-center">
+      <div class="container mx-auto px-6">
+        <h1 class="text-5xl font-bold mb-4">Urvil Patel</h1>
+        <p class="text-xl mb-6">Programmer | Web Developer | Python Enthusiast</p>
+        <a href="projects.html" class="bg-teal-500 text-white px-6 py-3 rounded-full font-medium hover:bg-teal-600">View Projects</a>
+      </div>
+    </section>
+
+    <section class="container mx-auto py-16 px-6">
+      <h2 class="text-3xl font-bold text-teal-400 mb-8">Featured Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Programming</h3>
+          <p>Python, C, JavaScript</p>
+        </div>
+        <div class="card p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p>HTML, CSS, Tailwind</p>
+        </div>
+        <div class="card p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Frameworks & Tools</h3>
+          <p>Tkinter, Pandas, NumPy</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center py-6">
+    <p>&copy; 2025 Urvil Patel. All rights reserved.</p>
+  </footer>
+</body>
+</html>

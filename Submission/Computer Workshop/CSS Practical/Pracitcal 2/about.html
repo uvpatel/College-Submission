@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Urvil Patel</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1a202c;
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #1a202c, #2d3748);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .nav-link:hover, .nav-link.active {
+      color: #4fd1c5;
+      border-bottom: 2px solid #4fd1c5;
+    }
+    footer {
+      background: #1a202c;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold text-teal-400">Urvil Patel</div>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="nav-link text-lg font-medium text-gray-300 py-2">Home</a></li>
+        <li><a href="about.html" class="nav-link active text-lg font-medium text-gray-300 py-2">About</a></li>
+        <li><a href="skills.html" class="nav-link text-lg font-medium text-gray-300 py-2">Skills</a></li>
+        <li><a href="projects.html" class="nav-link text-lg font-medium text-gray-300 py-2">Projects</a></li>
+        <li><a href="contact.html" class="nav-link text-lg font-medium text-gray-300 py-2">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-16 px-6">
+    <h1 class="text-4xl font-bold text-teal-400 mb-6">About Me</h1>
+    <p class="text-lg leading-relaxed mb-4">Hello! I'm Urvil Patel, a computer science student passionate about programming, AI, and ethical hacking. I love building innovative solutions and tackling real-world challenges through technology.</p>
+    <p class="text-lg leading-relaxed">My journey in tech has led me to explore various domains, from web development to data analysis, always with a focus on creating impactful and user-friendly projects.</p>
+  </main>
+
+  <footer class="text-center py-6">
+    <p>&copy; 2025 Urvil Patel. All rights reserved.</p>
+  </footer>
+</body>
+</html>

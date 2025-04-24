@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Urvil Patel</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1a202c;
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #1a202c, #2d3748);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .nav-link:hover, .nav-link.active {
+      color: #4fd1c5;
+      border-bottom: 2px solid #4fd1c5;
+    }
+    .contact-card {
+      background: #2d3748;
+    }
+    input, textarea {
+      background: #4a5568;
+      color: #e2e8f0;
+      border: none;
+      border-radius: 0.375rem;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      
+    }
+    footer {
+      background: #1a202c;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold text-teal-400">Urvil Patel</div>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="nav-link text-lg font-medium text-gray-300 py-2">Home</a></li>
+        <li><a href="about.html" class="nav-link text-lg font-medium text-gray-300 py-2">About</a></li>
+        <li><a href="skills.html" class="nav-link text-lg font-medium text-gray-300 py-2">Skills</a></li>
+        <li><a href="projects.html" class="nav-link text-lg font-medium text-gray-300 py-2">Projects</a></li>
+        <li><a href="contact.html" class="nav-link active text-lg font-medium text-gray-300 py-2">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-16 px-6">
+    <h1 class="text-4xl font-bold text-teal-400 mb-8">Contact Me</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="contact-card p-6 rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
+        <p class="mb-4">Feel free to reach out via email or social media:</p>
+        <p class="mb-2"><strong>Email:</strong> <a href="mailto:urvil@example.com" class="text-teal-400">urvil@example.com</a></p>
+        <ul class="space-y-2">
+          <li><a href="https://github.com/uvpatel" target="_blank" class="text-teal-400">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/yourlinkedin" target="_blank" class="text-teal-400">LinkedIn</a></li>
+          <li><a href="https://twitter.com/yourtwitter" target="_blank" class="text-teal-400">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="contact-card p-6 rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">Send a Message</h2>
+        <div>
+          <label for="name" class="block mb-1">Name:</label>
+          <input type="text" id="name" name="name" class="w-full p-2 mb-4" required>
+          
+          <label for="email" class="block mb-1">Email:</label>
+          <input type="email" id="email" name="email" class="w-full p-2 mb-4" required>
+          
+          <label for="message" class="block mb-1">Message:</label>
+          <textarea id="message" name="message" rows="4" class="w-full p-2 mb-4" required></textarea>
+          
+          <button onclick="alert('Form submission is disabled in this demo.')" class="bg-teal-500 text-white px-6 py-2 rounded-full font-medium hover:bg-teal-600">Send</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-6">
+    <p>&copy; 2025 Urvil Patel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
